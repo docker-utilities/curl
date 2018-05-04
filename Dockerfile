@@ -4,4 +4,4 @@ MAINTAINER Alexander Chumakov <ts.delfer@gmail.com>
 
 RUN apk --no-cache add openssl curl
 
-CMD ["curl"]
+ENTRYPOINT ["curl"]
