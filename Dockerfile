@@ -1,5 +1,7 @@
-FROM alpine:3.6
+FROM alpine
 
 MAINTAINER Alexander Chumakov <ts.delfer@gmail.com>
 
-RUN apk --no-cache add  curl
+RUN apk --no-cache add openssl curl
+
+CMD ["curl"]
